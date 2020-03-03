@@ -12,56 +12,57 @@
       <h1>Breathing Compressed Gas at Depth</h1>
     </header>
     <main>
-      <p>
-      Welcome to the Breathing Compressed Gas at Depth quiz. This quiz tests
-      your knowledge of the effects on the human body of breathing compressed
-      gas at depth. When you are ready to begin the quiz, click Start.
-    </p>
-    <button>Start</button>
+      <section class="start-screen">
+        <h2>Start Screen</h2>
+        <p>
+          Welcome to the Breathing Compressed Gas at Depth quiz. This quiz tests
+          your knowledge of the effects on the human body of breathing
+          compressed gas at depth. When you are ready to begin the quiz, click
+          'Start'.
+        </p>
+        <button>Start</button>
+      </section>
 
-      <form>
-        <fieldset>
-          <legend>the question here</legend>
-          <div>
+      <section class="question-screen">
+        <h2>Question Screen</h2>
+        <p>The question goes here</p>
+        <form>
+          <fieldset>
+            <legend>answers</legend>
             <input type="radio" />
             <label>Answer One</label>
-          </div>
-          <div>
             <input type="radio" />
             <label>Answer Two</label>
-          </div>
-          <div>
             <input type="radio" />
             <label>Answer Three</label>
-          </div>
-          <div">
             <input type="radio" />
             <label>Answer Four</label>
-          </div>
-        </fieldset>
-        <button>Submit</button>
-      </form>
-      <section class="right-answer">
-      <p>
-        Congratulations! You got the right answer! Click 'Next' to continue.
-      </p>
-    </section>
-    <section class="wrong-answer">
-      <p>Sorry! That is incorrect. Click 'Next' to continue.</p>
-    </section>
-    <button>Next</button>
-    <section>
-      <ul>
-        <li>Question Number: 1/8</li>
-        <li>Score: 0/8</li>
-      </ul>
-    </section>
-    <section>
+          </fieldset>
+          <button>Submit</button>
+        </form>
+      </section>
+
+      <section class="results">
+        <h2>Results Screen</h2>
+        <p>
+          Congratulations! You got the right answer! Click 'Next' to continue.
+        </p>
+        <p>Sorry! That is incorrect. Click 'Next' to continue.</p>
+        <button>Next</button>
+      </section>
+
+      <section>
+        <h3>User Progress</h3>
+        <ul>
+          <li>Question Number: 1/8</li>
+          <li>Score: 0/8</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Final Results Screen</h2>
         <p class="final-score">Final Score: 0/8</p>
-
         <button class="restart">Restart</button>
-      </section>                             
-
+      </section>
     </main>
   </body>
 </html>
