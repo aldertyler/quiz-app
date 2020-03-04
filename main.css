@@ -1,3 +1,47 @@
 * {
   box-sizing: border-box;
 }
+
+main {
+  margin: 20px;
+}
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+section {
+  border: 1px solid grey;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.instructions {
+  margin-bottom: 10px;
+}
+
+.question {
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 10px;
+}
+
+.feedback {
+  margin-bottom: 10px;
+}
+
+.final-score {
+  margin-bottom: 10px;
+}
+
+.progress {
+  text-align: right;
+}
