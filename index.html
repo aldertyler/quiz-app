@@ -3,8 +3,13 @@
   <head>
     <title>Questions</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-
-    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
+      integrity="sha256-7VVaJ5GDwFQiLIc+eNksQLUSSY5JNZtqv9o2BI8UGYg="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
 
   <body>
@@ -14,7 +19,7 @@
     <main>
       <section class="start-screen">
         <h2>Start Screen</h2>
-        <p>
+        <p class="instructions">
           Welcome to the Breathing Compressed Gas at Depth quiz. This quiz tests
           your knowledge of the effects on the human body of breathing
           compressed gas at depth. When you are ready to begin the quiz, click
@@ -25,39 +30,62 @@
 
       <section class="question-screen">
         <h2>Question Screen</h2>
-        <p>The question goes here</p>
+        <p class="question">
+          The question goes here. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
         <form>
           <fieldset>
             <legend>answers</legend>
-            <input type="radio" />
-            <label>Answer One</label>
-            <input type="radio" />
-            <label>Answer Two</label>
-            <input type="radio" />
-            <label>Answer Three</label>
-            <input type="radio" />
-            <label>Answer Four</label>
+            <div>
+              <input type="radio" />
+              <label>Answer One</label>
+            </div>
+            <div>
+              <input type="radio" />
+              <label>Answer Two</label>
+            </div>
+            <div>
+              <input type="radio" />
+              <label>Answer Three</label>
+            </div>
+            <div>
+              <input type="radio" />
+              <label>Answer Four</label>
+            </div>
           </fieldset>
           <button>Submit</button>
-        </form>
+          </form>
+          <div class="progress">
+          <h3>User Progress</h3>
+          <ul>
+            <li>Question Number: 1/8</li>
+            <li>Score: 0/8</li>
+          </ul>
+          </div>
       </section>
 
       <section class="results">
         <h2>Results Screen</h2>
-        <p>
+        <p class="feedback">
           Congratulations! You got the right answer! Click 'Next' to continue.
         </p>
-        <p>Sorry! That is incorrect. Click 'Next' to continue.</p>
+        <p class="feedback">
+          Sorry! That is incorrect. Click 'Next' to continue.
+        </p>
         <button>Next</button>
-      </section>
-
-      <section>
+        <div class="progress">
         <h3>User Progress</h3>
         <ul>
           <li>Question Number: 1/8</li>
           <li>Score: 0/8</li>
         </ul>
+        </div>
+        </section>
       </section>
+
       <section>
         <h2>Final Results Screen</h2>
         <p class="final-score">Final Score: 0/8</p>
